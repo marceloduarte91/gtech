@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 02</title>
+    <style>
+        header {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: black;
+            color: white;
+            padding: 20px;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            color: blue;
+            padding: 20px;
+        }
+
+        body main h2,
+        h3 {
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Geração Tech</h1>
+        <h2>Atividade 02 - HTML</h2>
+        <p>
+            Este HMTL é um exemplo de código para a atividade 02 do módulo de HTML/CSS
+        </p>
+        <nav>
+            <ul>
+                <li><a href="#artigo">Artigo</a></li>
+                <li><a href="#lista">Lista</a></li>
+                <li><a href="#audio-video">Audio e Vídeo</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h2 id="artigo">Título Artigo - Lorem</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur id nesciunt incidunt, excepturi
+                unde laborum perferendis est voluptates voluptatibus impedit aut, quisquam, totam sapiente tenetur rem?
+                Eaque repudiandae amet iste.
+            </p>
+        </article>
+        <section>
+            <h3 id="lista">Título Lista Não Ordenada</h3>
+            <ul>
+                <li>Opção 01</li>
+                <li>Opção 02</li>
+                <li>Opção 03</li>
+            </ul>
+        </section>
+        <section id="audio-video">
+            <h3>Audio e Video</h3>
+            <!-- Áudio -->
+            <audio controls>
+                <source src="iowr4.mp3" type="audio/mp3">
+                Seu navegador não suporta o elemento de áudio.
+            </audio>
+            <br>
+            <!-- Vídeo -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/TVocTMPnLmc?si=cX2MsyU7RFp-gGq2"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
+        </section>
+    </main>
+</body>
+
+</html>
